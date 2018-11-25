@@ -21,7 +21,7 @@ int main(int argc, char *argv[])
 	int tmp = 3;
 #endif // USE_MYMATH
 
-	fprintf(stdout, "version=%d,%d,%d,%d", HELLO_WORLD_MAJOR, HELLO_WORLD_MINOR, tmp, test_abs(tmp));
+	fprintf(stdout, "version=%d,%d,%d", HELLO_WORLD_MAJOR, HELLO_WORLD_MINOR, tmp);
 	double inputValue = atof(argv[1]);
 	double outputValue = sqrt(inputValue);
 	fprintf(stdout, "The square root of %g is %g\n",

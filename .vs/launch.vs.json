@@ -1,0 +1,21 @@
+{
+  "version": "0.2.1",
+  "defaults": {},
+  "configurations": [
+    {
+      "type": "default",
+      "project": "CMakeLists.txt",
+      "projectTarget": "hello-world.exe (CMakeProject1\\hello-world.exe)",
+      "name": "hello-world.exe (CMakeProject1\\hello-world.exe)",      
+    },
+    {
+      "type": "with arg",
+      "project": "CMakeLists.txt",
+      "projectTarget": "hello-world.exe (CMakeProject1\\hello-world.exe)",
+      "name": "run_9",
+      "args": [
+        "9"
+      ]
+    }
+  ]
+}

@@ -1,4 +1,4 @@
-add_library(MathFunctions SHARED add.cpp)
+add_library(MathFunctions STATIC add.cpp)
 
 include(GenerateExportHeader)
 

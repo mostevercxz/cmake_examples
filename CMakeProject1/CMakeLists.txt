@@ -9,7 +9,7 @@ file(GLOB SOURCES "*.cpp")
 
 # 将源代码添加到此项目的可执行文件。
 add_executable (hello-world "CMakeProject1.h" ${SOURCES})
-target_link_libraries(hello-world MathFunctions.dll)
+target_link_libraries(hello-world MathFunctions)
 
 # TODO: 如有需要，请添加测试并安装目标。
 
