@@ -1,0 +1,5 @@
+#define HELLO_WORLD_MAJOR @HELLO_WORLD_MAJOR@
+#define HELLO_WORLD_MINOR @HELLO_WORLD_MINOR@
+#cmakedefine USE_MYMATH
+#cmakedefine HAVE_LOG
+#cmakedefine HAVE_EXP
